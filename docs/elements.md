@@ -1,11 +1,11 @@
-# Elements
+# Elementos
 
-Elements are things inside your component.
+Elementos são coisas dentro do seu componente.
 
 ![](images/component-elements.png)
 
-## Naming elements
-Each component may have elements. They should have classes that are only **one word**.
+## Dando nome aos elementos
+Cada componente pode ter elementos. Eles devem ter classes que são formados por apenas **uma palavra**.
 
 ```scss
 .search-form {
@@ -14,18 +14,18 @@ Each component may have elements. They should have classes that are only **one w
 }
 ```
 
-## Element selectors
-Prefer to use the `>` child selector whenever possible. This prevents bleeding through nested components, and performs better than descendant selectors.
+## Seletores de elementos
+Prefira utilizar o `>` seletor de elemento filho onde for possível. Isso previne que você sofra com componentes aninhados, e tenha uma perfomance melhor do que utilziar um seletor descendente
 
 ```scss
 .article-card {
-  .title     { /* okay */ }
-  > .author  { /* ✓ better */ }
+  .title     { /* ok */ }
+  > .author  { /* ✓ melhor */ }
 }
 ```
 
-## On multiple words
-For those that need two or more words, concatenate them without dashes or underscores.
+## Múltiplas palavras
+Para as vezes em que for necessário duas ou mais palavras, concatene-as sem traços ou undescores.
 
 ```scss
 .profile-box {
@@ -35,16 +35,16 @@ For those that need two or more words, concatenate them without dashes or unders
 }
 ```
 
-## Avoid tag selectors
-Use classnames whenever possible. Tag selectors are fine, but they may come at a small performance penalty and may not be as descriptive.
+## Evitando seletores de tag
+Use nomes de classe sempre que possível. Seletores de tag são bons, mas eles podem conter uma menor penalidade na perfomance e podem não ser muito legíveis
 
 ```scss
 .article-card {
-  > h3    { /* ✗ avoid */ }
-  > .name { /* ✓ better */ }
+  > h3    { /* ✗ evite */ }
+  > .name { /* ✓ melhor */ }
 }
 ```
 
-Not all elements should always look the same. Variants can help.
+Nem todos os elementos devem sempre parece iguais. Variantes podem ajudar
 [Continue →](variants.md)
 <!-- {p:.pull-box} -->
