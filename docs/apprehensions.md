@@ -1,20 +1,20 @@
 # Apprehensions
 
-Some people may have apprehensions to these conventions, such as:
+Algumas pessoas podem ter apreensões quanto à estas convenções, tais como:
 
-#### "But dashes suck"
+#### "Mas traços são horríveis"
 
-You're free to omit them and just use regular words, but keep the rest of the ideas in place (components, elements, variants).
+Voc~e é livre para omitir isso e utilizar somente palavras, mas mantenha o restante das ideias no lugar(componentes, elementos, variantes).
 
-#### "But I can't think of 2 words!"
+#### "Mas eu não consigo pensar em duas palavras!"
 
-Some components will only need one word to express their purpose, such as `alert`. In these cases, consider that using some suffixes will make it clearer that it's a block-level element:
+Alguns componentes precisarão de apenas uma palavra para expressar seu propósito, tais como `alert`. Nesses casos, considere alguns sufixos que deixarão explícito que é um elemento de bloco:
 
   * `.alert-box`
   * `.alert-card`
   * `.alert-block`
 
-  Or for inlines:
+  Ou para elementos de linha:
 
   * `.link-button`
   * `.link-span`
