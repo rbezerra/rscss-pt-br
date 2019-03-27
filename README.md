@@ -1,4 +1,4 @@
-##### Viewing this from GitHub? Visit the website for the full experience. **[rscss.io →](http://rscss.io)**
+##### Está lendo isso no GitHub? Visite o site para uma experiência completa. **[rscss.io →](http://rscss.io)**
 <!-- {h5: style='display:none'} -->
 
 ----
@@ -8,31 +8,31 @@
 
 <!-- {h1:.massive-header.-with-tagline} -->
 
-> Styling CSS without losing your sanity
+> Trabalhe com CSS sem perder sua sanidade
 
-Reasonable System for CSS Stylesheet Structure.<br>
-A set of simple ideas to guide your process of building maintainable CSS.
+Sistema Razoável para Estrutura de Arquivos CSS.<br>
+Um conjunto de simples ideias para guiar seu processo de construir arquivos CSS de fácil manutenção
 
-Introduction
+Introdução
 ------------
 
-Any CSS greater than 1000 lines will get unwieldy. You'll eventually run into these common pitfalls:
+Qualquer arquivo CSS com mais de 1000 linhas é desajeitado. Você uma hora ou outra irá encontrar os seguintes problemas:
 
-* "What does this class mean?"
-* "Is this class still being used?"
-* "If I make a new class `green`, will there be a clash?"
+* "O que essa classe significa?"
+* "Essa classe continua sendo utilizada?"
+* "Se eu criar uma nova classe `verde`, terei problemas?"
 
-**rscss** is an attempt to make sense of all these. It is not a framework. It's simply a set of ideas to guide your process of building maintainable CSS for any modern website or application.
+**rscss** é uma tentativa de fazer com que tudo isso tenha sentido. Não é um framework. É um simples conjunto de ideias para guiar o seu processo de construir CSS de fácil manutenção para qualquer site moderno ou aplicação.
 
-Let's get started by learning about components.
-[Continue →](docs/components.md)
+Vamos começar aprendendo sobre componentes.
+[Continuar →](docs/components.md)
 <!-- {p:.pull-box} -->
 
 ----
 <!-- {hr: style='display:none'} -->
 
 **rscss** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
-Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
+Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]). Brazilian Portuguese translation by Ramon Bezerra [@rbezerra](https://github.com/rbezerra)
 <!-- {p: style='display:none'} -->
 
 > [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
