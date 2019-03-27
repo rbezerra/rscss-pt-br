@@ -2,21 +2,22 @@
 
 ![](images/layouts.png)
 
-## Avoid positioning properties
-Components should be made in a way that they're reusable in different contexts. Avoid putting these properties in components:
+## Evite propriedades de posicionamento
+Componentes devem ser feitos de um modo que sejam reutilizáveis em vários contextos. Evite colocar essas propriedades nos componentes:
 
-  * Positioning (`position`, `top`, `left`, `right`, `bottom`)
+  * Posicionamento (`position`, `top`, `left`, `right`, `bottom`)
   * Floats (`float`, `clear`)
-  * Margins (`margin`)
-  * Dimensions (`width`, `height`) *
+  * Margens (`margin`)
+  * Dimensões (`width`, `height`) *
 
-## Fixed dimensions
+## Dimensões fixas
 
-Exception to these would be elements that have fixed width/heights, such as avatars and logos.
+Exceto quanto aos elementos que possuem alturas e larguras fixas, como avatares e logos.
 
-## Define positioning in parents
+## Defina o posicionamento nos elementos pai
 
-If you need to define these, try to define them in whatever context they will be in. In this example below, notice that the widths and floats are applied on the *list* component, not the component itself.
+Se você precisa defini-los, tente definir em qualquer contexto em que eles estejam. Nesse exemplo abaixo, note que as larguras e floats são aplicadas
+no componente *lista* e não no componente mesmo.
 
   ```css
   .article-list {
@@ -38,6 +39,6 @@ If you need to define these, try to define them in whatever context they will be
   }
   ```
 
-How do you apply margins outside a layout? Try it with Helpers.
+Como aplicar margens fora de um layout? Tente utilizar Helpers.
 [Continue →](helpers.md)
 <!-- {p:.pull-box} -->
