@@ -7,7 +7,7 @@ Pense em componentes. Considere cada peça de sua UI como um "componente" indivi
 
 ## Dando nome aos componentes
 
-Componentes serão nomeados com **pelo menos duas palavras**, com um traço entre cada palavra. Examplos de componentes:
+Componentes serão nomeados com **pelo menos duas palavras**, com um traço entre cada palavra. Exemplos de componentes:
 
   * Um botão de like (`.like-button`)
   * Um formulário de pesquisa (`.search-form`)
